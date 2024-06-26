@@ -51,6 +51,37 @@
             <div class="container">
                 <div class="hero">
                     <form class="hero__form">
+                        <div class="form__title">
+                            <h2>Shipping Cost Calculator</h2>
+                            <p>Get your estimate quote in seconds</p>
+                            <div class="line"></div>
+                        </div>
+                        <div class="from__input">
+                            <p>From</p>
+                            <input class="input" type="text" required placeholder="Select ZIP code or location ">
+                        </div>
+                        <div class="from__input">
+                            <p>To</p>
+                            <input class="input" type="text" required placeholder="Select ZIP code or location ">
+                        </div>
+                        <div class="from__input">
+                            <p>Estimate time</p>
+                            <input class="input" type="text" required placeholder="Select estimate time ">
+                        </div>
+                        <div class="form__radio-wrapper">
+                            <label class="form__radio-label" >
+                                <input class="vissually-hidden" name="type" type="radio">
+                                <div class="form__custum-radio"></div>
+                                <span>Open</span>
+                            </label>
+                            <label class="form__radio-label" >
+                                <input class="vissually-hidden" name="type" type="radio">
+                                <div class="form__custum-radio"></div>
+                                <span>Enclosed</span>
+                            </label>
+                        </div>
+                        <div class="line"></div>
+                        <button class="form__btn">Get Shipment estimate</button>
                         
                     </form>
                     <div class="hero__content-wrapper">
