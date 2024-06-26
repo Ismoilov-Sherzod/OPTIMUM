@@ -1,0 +1,37 @@
+.hero-section {
+    padding: 180px 0 93px;
+    height: 100vh;
+    background-image: url(../images/fura.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom center;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+
+}
+.hero__form {
+    width: 449px;
+    height: 527px;
+    background: #3A3A3A80;
+}
+.hero__content-wrapper {
+    width: 576px;
+    height: 236px;
+    margin-top: 50px;
+}
+.hero__title {
+    margin-left: 34px;
+    font-size: 14px;
+    color: #fff;
+}
+.hero__text {
+    font-size: 56px;
+    color: #fff;
+}
+.hero__bottom-text {
+    font-size: 20px;
+    color: #fff;
+}

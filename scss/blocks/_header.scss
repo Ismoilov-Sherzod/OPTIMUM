@@ -1,0 +1,31 @@
+.site-header{
+    background: #0000004D;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.navbar__title{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    color: #fff;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}

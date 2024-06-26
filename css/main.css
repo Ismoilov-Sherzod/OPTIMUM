@@ -1,10 +1,3 @@
-@font-face {
-  font-family: "FontName";
-  src: url("FileName.eot");
-  src: url("FileName.eot?#iefix") format("embedded-opentype"), url("FileName.woff") format("woff"), url("FileName.ttf") format("truetype"), url("FileName.svg#FontName") format("svg");
-  font-style: normal;
-  font-weight: normal;
-}
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +7,11 @@
 }
 
 body {
-  font-family: cursive;
+  font-family: "inter", sans-serif;
+}
+
+a {
+  color: inherit;
 }
 
 .visually-hidden {
@@ -32,13 +29,84 @@ body {
 }
 
 .container {
-  width: 1200px;
+  width: 1440px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
+.site-header {
+  background: rgba(0, 0, 0, 0.3019607843);
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+}
+
 .header {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.navbar__title {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  color: #fff;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.hero-section {
+  padding: 180px 0 93px;
+  height: 100vh;
+  background-image: url(../images/fura.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom center;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__form {
+  width: 449px;
+  height: 527px;
+  background: rgba(58, 58, 58, 0.5019607843);
+}
+
+.hero__content-wrapper {
+  width: 576px;
+  height: 236px;
+  margin-top: 50px;
+}
+
+.hero__title {
+  margin-left: 34px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.hero__text {
+  font-size: 56px;
+  color: #fff;
+}
+
+.hero__bottom-text {
+  font-size: 20px;
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */
