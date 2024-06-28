@@ -29,7 +29,7 @@ a {
 }
 
 .container {
-  width: 1440px;
+  width: 1160px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -165,4 +165,115 @@ a {
   color: #fff;
   border: none;
   border-radius: 8px;
+}
+
+.service-section {
+  padding: 118px 0 169px;
+}
+
+.service__content-wrapper {
+  text-align: center;
+}
+
+.service__content-wrapper > h2 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 57.76px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.service__content-wrapper > p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: black;
+  margin-bottom: 0;
+}
+
+.service__item {
+  border-radius: 5px;
+  cursor: pointer;
+  width: 354px;
+  position: relative;
+  height: 465px;
+  overflow: hidden;
+  box-shadow: 0 0 4px 0 black;
+}
+.service__item:hover > .service__img {
+  height: 50%;
+}
+.service__item:hover > .service__hidden-content {
+  bottom: 0;
+}
+
+.service__items {
+  width: 100%;
+  margin-top: 96px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.service__img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.5s;
+}
+
+.service-subcontent {
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+}
+
+.service-subcontent > h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.service-subcontent > p {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.service__hidden-content {
+  position: absolute;
+  padding: 20px;
+  bottom: -100%;
+  background-color: white;
+  height: 50%;
+  transition: all 0.5s;
+}
+
+.service__hidden-content > h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.service__hidden-content > p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.service__hidden-content > a {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #ff7d44;
+  margin-bottom: 0;
 }/*# sourceMappingURL=main.css.map */

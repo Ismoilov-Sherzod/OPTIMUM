@@ -1,0 +1,81 @@
+.service-section{
+    padding: 118px 0 169px ;
+}
+.service__content-wrapper{
+    text-align: center;
+}
+
+.service__content-wrapper > h2{
+    @include textStyle($FS:56px,  $FW:700, $LH:57.76px, $CLR:$clr-black, $CASE:capitalize, $MB:20px)
+}
+.service__content-wrapper > p{
+    @include textStyle($FS:16px,  $FW:400, $LH:24px, $CLR:$clr-black, $CASE:capitalize, $MB:0)
+
+}
+
+.service__item {
+    border-radius: 5px;
+    cursor: pointer;
+    width: 354px;
+    position: relative; 
+    height: 465px;
+    overflow: hidden;
+    box-shadow: 0 0 4px 0 $clr-black;
+
+
+    &:hover > .service__img{
+        height: 50%;
+    }
+
+    &:hover > .service__hidden-content{
+        bottom: 0;
+    }
+}
+  .service__items{
+    width: 100%;
+    margin-top: 96px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+  } 
+.service__img {
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s;
+ 
+}
+.service-subcontent {
+padding: 20px;    
+position: absolute;
+bottom: 0;
+}
+.service-subcontent > h3{
+    @include textStyle($FS:24px,  $FW:700, $LH:29px, $CLR:$clr-white, $CASE:capitalize, $MB:15px)
+
+}
+.service-subcontent > p{
+    @include textStyle($FS:15px,  $FW:500, $LH:18px, $CLR:$clr-white, $CASE:capitalize, $MB:0)
+
+}
+
+.service__hidden-content{
+    position: absolute;
+    padding: 20px;
+    bottom: -100%;
+    background-color: white ;
+    height: 50%;
+    transition: all 0.5s;
+}
+.service__hidden-content > h3{
+    @include textStyle($FS:24px,  $FW:700, $LH:29px, $CLR:$clr-black, $CASE:capitalize, $MB:10px)
+    
+}
+.service__hidden-content > p{
+    @include textStyle($FS:14px,  $FW:400, $LH:20px, $CLR:$clr-black, $CASE:capitalize, $MB:15px)
+    
+}
+.service__hidden-content > a{
+    @include textStyle($FS:15px,  $FW:500, $LH:18px, $CLR:$clr-orange, $CASE:capitalize, $MB:0)
+    
+}
